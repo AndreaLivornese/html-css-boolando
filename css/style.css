@@ -71,7 +71,7 @@ nav .container #logo-container{
 }
 
 .element{
-    width: calc(100%3);
+    flex-basis: calc(100%3);
 }
 
 .vet-img{
@@ -83,4 +83,20 @@ nav .container #logo-container{
 
 }
 
+.marca, .price{
+    font-size: 12px;
+}
+
+.vestiario{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.discount{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
 /* fine vetrina */
