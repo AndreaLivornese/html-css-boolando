@@ -6,3 +6,58 @@
 }
 
 /* reset */
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+}
+
+/* nav */
+nav{
+   padding:20px;
+   
+    background-color: #ff6900;
+
+    color:white;
+}
+
+.container.row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.row, .icon.row{
+    gap:10px;
+
+    max-width: 200px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+#nav-logo{
+    width: 140px;
+}
+
+nav .container #logo-container{
+    flex-grow: 1;
+}
+
+
+/* fine nav */
