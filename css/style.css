@@ -12,7 +12,7 @@ body{
 }
 
 main{
-    padding:62px 0;
+    padding:130px 0 62px;
 }
 
 .container{
@@ -38,7 +38,11 @@ main{
 
 /* nav */
 nav{
-   padding:20px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;;
+
+    padding:20px;
    
     background-color: #ff6900;
 
