@@ -22,6 +22,10 @@ body{
     display: flex;
 }
 
+.pos-rel{
+    position: relative;
+}
+
 /* nav */
 nav{
    padding:20px;
@@ -98,5 +102,40 @@ nav .container #logo-container{
 
 .old-price{
     text-decoration: line-through;
+}
+
+
+.discount-box, .sos-box, .like{
+    position: absolute;
+
+    padding:6px 8px;
+
+    color:white;
+    font-size: 10px;
+}
+
+.discount-box{
+    left:0px;
+    bottom:40px;
+
+    background-color: #ff0000;
+}
+
+.sos-box{
+    left:40px;
+    bottom:40px;
+
+    background-color: #008000;
+}
+
+.like{
+    
+    right: 0;
+    top:10px;
+
+    font-size: 24px;
+    background-color: white;
+    color:black
+
 }
 /* fine vetrina */
