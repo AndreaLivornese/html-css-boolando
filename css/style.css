@@ -61,3 +61,26 @@ nav .container #logo-container{
 
 
 /* fine nav */
+
+
+/* vetrina */
+.vetrina.row{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap:20px;
+}
+
+.element{
+    width: calc(100%3);
+}
+
+.vet-img{
+    width: 100%;
+}
+
+#row1.row, #row2.row{
+    gap:20px;
+
+}
+
+/* fine vetrina */
