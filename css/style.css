@@ -26,6 +26,12 @@ main{
     display: flex;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
 .pos-rel{
     position: relative;
 }
@@ -143,3 +149,31 @@ nav .container #logo-container{
 
 }
 /* fine vetrina */
+
+
+/* footer */
+footer{
+    background-color: #1a1a1a;
+    color:white;
+}
+
+footer .container .foot-links{
+    flex-grow: 1;
+}
+
+footer ul.row{
+    max-width:none;
+    list-style-type: none;
+}
+
+footer ul li a{
+
+    font-size:.8em;
+    color:white;
+    text-decoration: none;
+}
+
+footer .container{
+    padding:23px 0;
+}
+/* fine footer */
