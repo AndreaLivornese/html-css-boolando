@@ -79,6 +79,10 @@ nav .container #logo-container{
     flex-grow: 1;
 }
 
+nav .container .categoria a:hover{
+    text-decoration: underline;
+}
+
 
 /* fine nav */
 
