@@ -170,6 +170,10 @@ nav .container #logo-container{
    opacity: 1;
 }
 
+.like:hover{
+    color:red;
+}
+
 /* fine vetrina */
 
 
