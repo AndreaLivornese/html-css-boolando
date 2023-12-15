@@ -175,6 +175,7 @@ nav .container #logo-container{
 
 .element:hover .img-b{
    opacity: 1;
+   transition: 0.3s;
 }
 
 .like:hover{
