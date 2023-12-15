@@ -132,12 +132,16 @@ nav .container #logo-container{
     left:0px;
     bottom:40px;
 
+    z-index: 2;
+
     background-color: #ff0000;
 }
 
 .sos-box{
     left:40px;
     bottom:40px;
+
+    z-index: 2;
 
     background-color: #008000;
 }
@@ -147,11 +151,25 @@ nav .container #logo-container{
     right: 0;
     top:10px;
 
+    z-index: 2;
+
     font-size: 24px;
     background-color: white;
     color:black
 
 }
+
+.img-b{
+    position: absolute;
+    left:0;
+
+    opacity: 0;
+}
+
+.element:hover .img-b{
+   opacity: 1;
+}
+
 /* fine vetrina */
 
 
