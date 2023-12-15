@@ -83,13 +83,12 @@ nav .container #logo-container{
 
 /* vetrina */
 .vetrina.row{
-    /* flex-wrap: wrap; */
     flex-direction: column;
     gap:20px;
 }
 
 .element{
-    flex-basis: calc(100%3);
+    flex-basis: calc(100% / 3);
 }
 
 .vet-img{
@@ -97,6 +96,7 @@ nav .container #logo-container{
 }
 
 #row1.row, #row2.row{
+    /* flex-wrap: wrap; */
     gap:20px;
 
 }
