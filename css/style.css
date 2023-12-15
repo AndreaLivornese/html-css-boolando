@@ -107,7 +107,13 @@ nav .container #logo-container{
 
 .vestiario{
     font-size: 14px;
+}
+
+.vestiario a{
+    color:black;
     font-weight: bold;
+
+    text-decoration: none;
 }
 
 .discount{
@@ -118,10 +124,16 @@ nav .container #logo-container{
     text-decoration: line-through;
 }
 
-
-.discount-box, .sos-box, .like{
+.sos-discount-box{
+    display: flex;
+    column-gap: 5px;
+    
     position: absolute;
 
+    bottom :40px;
+}
+
+.discount-box, .sos-box, .like{
     padding:6px 8px;
 
     color:white;
@@ -147,7 +159,7 @@ nav .container #logo-container{
 }
 
 .like{
-    
+    position: absolute;
     right: 0;
     top:10px;
 
